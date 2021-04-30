@@ -1,0 +1,1 @@
+Minimum template for Wordpress
