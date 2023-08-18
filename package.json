@@ -1,0 +1,27 @@
+{
+  "name": "wordpress-minimum-theme",
+  "version": "1.0.0",
+  "description": "Minimum template for Wordpress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IchikaKomiya/wordpress-minimum-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IchikaKomiya/wordpress-minimum-theme/issues"
+  },
+  "homepage": "https://github.com/IchikaKomiya/wordpress-minimum-theme#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "dotenv": "^16.3.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "sass": "^1.66.0"
+  }
+}
