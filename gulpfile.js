@@ -45,8 +45,9 @@ gulp.task('codesync', function(){
 });
 
 gulp.task('watch', function(){
+    // gulp.watch(paths.scss, gulp.series('css', 'codesync', 'browser-reload'));
     gulp.watch(paths.scss, gulp.task('css'));
-    gulp.watch(paths.js, gulp.task('bundle'));
+    // gulp.watch(paths.js, gulp.series('bundle', 'codesync', 'browser-reload'));
     gulp.watch(paths.file).on('change', gulp.series('codesync', 'browser-reload'));
 });
 

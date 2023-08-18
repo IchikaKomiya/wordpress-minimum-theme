@@ -1,0 +1,47 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.7em;
+  letter-spacing: .10em;
+  font-weight: 900;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+p, a {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.6em;
+  letter-spacing: .10em;
+  font-weight: 300;
+}
+
+.inner_link{
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: $baseFontColor;
+}
+
+strong{
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $backgroundColor;
+  color: $baseFontColor;
+  vertical-align: baseline;
+}

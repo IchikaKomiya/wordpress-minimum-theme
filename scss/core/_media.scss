@@ -1,0 +1,34 @@
+//PC用設定
+@mixin is_pc() {
+  @media screen and (min-width: $breakpointMax) {
+    @content;
+  }
+}
+
+//タブレット用設定
+@mixin is_tab() {
+  @media screen and (min-width: $breakpointMin ) and (max-width: $breakpointMax) {
+    @content;
+  }
+}
+
+//spより大きい
+@mixin more_than_sp() {
+  @media screen and  (min-width: $breakpointMin) {
+    @content;
+  }
+}
+
+//tabより小さい
+@mixin than_tab() {
+  @media screen and  (max-width: $breakpointMax) {
+    @content;
+  }
+}
+
+//sp用
+@mixin is_sp() {
+  @media screen and  (max-width: $breakpointMin) {
+    @content;
+  }
+}
